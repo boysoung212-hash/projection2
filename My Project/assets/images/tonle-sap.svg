@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Tonle Sap Lake</title>
+  <desc id="desc">A stylized floating village scene on Tonle Sap Lake with houses on stilts, boats, and a calm sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8bd9ff"/>
+      <stop offset="100%" stop-color="#f9fcff"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7dd4eb"/>
+      <stop offset="100%" stop-color="#3b7a9e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="146" cy="102" r="42" fill="#fff0a6"/>
+  <rect y="236" width="800" height="284" fill="url(#lake)"/>
+  <path d="M0 274c112 16 218 14 338-8 140-24 246-20 462 12v44H0z" fill="#8ee0ef" opacity=".42"/>
+  <g fill="#ffffff" opacity=".72">
+    <ellipse cx="184" cy="100" rx="64" ry="18"/>
+    <ellipse cx="252" cy="126" rx="44" ry="14"/>
+    <ellipse cx="586" cy="108" rx="82" ry="20"/>
+  </g>
+  <g>
+    <rect x="92" y="232" width="108" height="72" fill="#f0e8d4"/>
+    <path d="M80 234h132l-28-34h-76z" fill="#a77243"/>
+    <rect x="130" y="250" width="20" height="54" fill="#d1a87b"/>
+    <rect x="108" y="304" width="8" height="112" fill="#6d543c"/>
+    <rect x="134" y="304" width="8" height="112" fill="#6d543c"/>
+    <rect x="160" y="304" width="8" height="112" fill="#6d543c"/>
+    <rect x="186" y="304" width="8" height="112" fill="#6d543c"/>
+  </g>
+  <g>
+    <rect x="280" y="216" width="124" height="80" fill="#efe6d1"/>
+    <path d="M266 220h152l-34-40h-82z" fill="#8f6035"/>
+    <rect x="330" y="240" width="24" height="56" fill="#c9986d"/>
+    <rect x="300" y="296" width="8" height="126" fill="#6a523a"/>
+    <rect x="332" y="296" width="8" height="126" fill="#6a523a"/>
+    <rect x="364" y="296" width="8" height="126" fill="#6a523a"/>
+    <rect x="396" y="296" width="8" height="126" fill="#6a523a"/>
+  </g>
+  <g>
+    <rect x="520" y="224" width="116" height="76" fill="#f3ead7"/>
+    <path d="M506 226h144l-30-36h-84z" fill="#b67a47"/>
+    <rect x="568" y="242" width="20" height="58" fill="#d5a57c"/>
+    <rect x="542" y="300" width="8" height="120" fill="#70553a"/>
+    <rect x="570" y="300" width="8" height="120" fill="#70553a"/>
+    <rect x="598" y="300" width="8" height="120" fill="#70553a"/>
+    <rect x="626" y="300" width="8" height="120" fill="#70553a"/>
+  </g>
+  <g>
+    <path d="M426 376h128l38 18H388z" fill="#754c29"/>
+    <path d="M430 372h118l-28-16h-66z" fill="#bf8750"/>
+    <rect x="454" y="392" width="88" height="10" fill="#e8dbc6"/>
+  </g>
+  <ellipse cx="470" cy="448" rx="194" ry="26" fill="#2c6282" opacity=".28"/>
+</svg>

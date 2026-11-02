@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Preah Vihear Cliff</title>
+  <desc id="desc">A stylized cliffside temple view at Preah Vihear with highland skies.</desc>
+  <rect width="800" height="520" fill="#d7edff"/>
+  <g fill="#ffffff" opacity=".9">
+    <ellipse cx="166" cy="94" rx="110" ry="28"/>
+    <ellipse cx="430" cy="116" rx="136" ry="30"/>
+  </g>
+  <path d="M0 316c112-42 224-54 350-34 116 18 240 14 450-10v248H0z" fill="#7b8f73"/>
+  <path d="M520 174h168v94H520z" fill="#cfc1a0"/>
+  <polygon points="504,188 604,126 704,188" fill="#8c6548"/>
+  <rect x="590" y="204" width="26" height="64" fill="#8d6b52"/>
+  <path d="M446 228h120l42 292H356z" fill="#6b5c4e"/>
+  <path d="M0 360c124-16 238-14 360 8 132 22 258 22 440 0v152H0z" fill="#8ea57c"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Koh Tonsay</title>
+  <desc id="desc">A stylized Rabbit Island beach scene with calm blue water, a wooden boat, and palms on the shore.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8be6ff"/>
+      <stop offset="100%" stop-color="#ffe2b5"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#79d9ef"/>
+      <stop offset="100%" stop-color="#2383b7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="652" cy="102" r="44" fill="#ffefab"/>
+  <path d="M0 236c154 28 260 26 402 8 150-20 242-16 398 12v54H0z" fill="#7bc390"/>
+  <rect y="282" width="800" height="238" fill="url(#sea)"/>
+  <path d="M0 320c118 16 214 18 330 2 126-18 236-18 470 10v32H0z" fill="#8edbea" opacity=".45"/>
+  <path d="M0 258h298l52 42H0z" fill="#f2d39b"/>
+  <path d="M272 244h184l70 48H214z" fill="#5b9d60"/>
+  <g>
+    <rect x="118" y="226" width="16" height="74" fill="#7b5632"/>
+    <path d="M126 218c-26 10-40 26-46 50 18-8 32-10 50-8-8-12-8-24-4-42z" fill="#458e48"/>
+    <path d="M126 220c18 10 34 28 42 50-24-10-38-12-54-10 8-10 12-22 12-40z" fill="#5aa55a"/>
+    <rect x="192" y="232" width="14" height="68" fill="#7b5632"/>
+    <path d="M199 224c-20 10-32 24-36 46 16-6 26-8 42-6-8-10-8-20-6-40z" fill="#4d954a"/>
+    <path d="M199 224c16 8 28 24 34 44-18-8-30-10-44-8 6-8 10-18 10-36z" fill="#62ac60"/>
+  </g>
+  <g>
+    <path d="M452 360h136l48 28H500z" fill="#8d5f33"/>
+    <path d="M472 338h102l44 24H430z" fill="#b37f45"/>
+    <rect x="516" y="314" width="10" height="48" fill="#6d4d2a"/>
+    <polygon points="526,316 580,344 526,344" fill="#f7f2e2"/>
+  </g>
+  <ellipse cx="584" cy="438" rx="138" ry="20" fill="#2e8eb5" opacity=".34"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Kep Coastal Market</title>
+  <desc id="desc">A stylized coastal market and shoreline scene in Kep.</desc>
+  <rect width="800" height="520" fill="#dff3ff"/>
+  <circle cx="636" cy="104" r="46" fill="#fff0a6"/>
+  <path d="M0 240c124 18 242 18 378 2 128-16 256-14 422 10v38H0z" fill="#7cc09a"/>
+  <rect y="286" width="800" height="234" fill="#66b8d6"/>
+  <path d="M0 322c118 14 232 18 366 2 136-16 266-14 434 10v22H0z" fill="#95dce7" opacity=".46"/>
+  <rect x="150" y="232" width="188" height="72" fill="#efdec2"/>
+  <polygon points="132,246 244,188 356,246" fill="#c05b44"/>
+  <rect x="220" y="252" width="26" height="52" fill="#9c402f"/>
+  <path d="M520 390c18-24 46-24 60 0M510 402c30 24 70 24 100 0" fill="none" stroke="#cf654f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 392h20M590 392h20" fill="none" stroke="#cf654f" stroke-width="10" stroke-linecap="round"/>
+</svg>

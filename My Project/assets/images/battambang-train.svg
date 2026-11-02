@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Battambang Bamboo Train</title>
+  <desc id="desc">A stylized rural Battambang scene with the bamboo train crossing rice fields under a warm sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe0a8"/>
+      <stop offset="100%" stop-color="#fff8eb"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8bcf59"/>
+      <stop offset="100%" stop-color="#4d8c2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="640" cy="102" r="54" fill="#ffd77b"/>
+  <path d="M0 220c138 24 244 26 390 6 136-18 262-12 410 18v76H0z" fill="#cae39c"/>
+  <rect y="264" width="800" height="256" fill="url(#field)"/>
+  <path d="M0 324c96-24 176-34 276-36 122-4 212 18 322 34 88 12 132 12 202 2v196H0z" fill="#6bb040"/>
+  <g fill="#79b349" opacity=".58">
+    <path d="M88 286h16v164H88z"/>
+    <path d="M150 296h14v154h-14z"/>
+    <path d="M614 292h16v158h-16z"/>
+    <path d="M676 300h14v150h-14z"/>
+  </g>
+  <g stroke="#5b3b20" stroke-width="10" stroke-linecap="round">
+    <line x1="86" y1="378" x2="706" y2="378"/>
+    <line x1="72" y1="408" x2="722" y2="408"/>
+  </g>
+  <g stroke="#6e4b29" stroke-width="8">
+    <line x1="106" y1="366" x2="122" y2="420"/>
+    <line x1="154" y1="366" x2="170" y2="420"/>
+    <line x1="202" y1="366" x2="218" y2="420"/>
+    <line x1="250" y1="366" x2="266" y2="420"/>
+    <line x1="298" y1="366" x2="314" y2="420"/>
+    <line x1="346" y1="366" x2="362" y2="420"/>
+    <line x1="394" y1="366" x2="410" y2="420"/>
+    <line x1="442" y1="366" x2="458" y2="420"/>
+    <line x1="490" y1="366" x2="506" y2="420"/>
+    <line x1="538" y1="366" x2="554" y2="420"/>
+    <line x1="586" y1="366" x2="602" y2="420"/>
+    <line x1="634" y1="366" x2="650" y2="420"/>
+  </g>
+  <g>
+    <rect x="286" y="306" width="214" height="34" fill="#a97844"/>
+    <rect x="310" y="280" width="166" height="28" fill="#be8c57"/>
+    <rect x="328" y="258" width="130" height="24" fill="#8f6036"/>
+    <circle cx="330" cy="348" r="18" fill="#2f2f34"/>
+    <circle cx="454" cy="348" r="18" fill="#2f2f34"/>
+  </g>
+  <g fill="#4b7d2d">
+    <path d="M118 252c34 6 56 18 74 38h-98c4-14 10-26 24-38z"/>
+    <path d="M590 248c34 8 58 22 74 44h-102c8-20 14-30 28-44z"/>
+  </g>
+</svg>

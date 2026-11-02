@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">National Museum Courtyard</title>
+  <desc id="desc">A stylized courtyard scene from the National Museum with red Khmer roofs.</desc>
+  <rect width="800" height="520" fill="#d7efff"/>
+  <circle cx="644" cy="100" r="42" fill="#fff1a7"/>
+  <rect y="328" width="800" height="192" fill="#7db065"/>
+  <rect x="150" y="224" width="500" height="122" fill="#d39263"/>
+  <rect x="198" y="206" width="404" height="140" fill="#dd9c6d"/>
+  <polygon points="184,224 292,156 400,224" fill="#b44234"/>
+  <polygon points="330,206 400,142 470,206" fill="#c24b3d"/>
+  <polygon points="400,224 508,156 616,224" fill="#b44234"/>
+  <rect x="378" y="244" width="44" height="102" fill="#7b2d24"/>
+  <rect x="234" y="246" width="26" height="100" fill="#8a3629"/>
+  <rect x="540" y="246" width="26" height="100" fill="#8a3629"/>
+  <rect x="250" y="380" width="300" height="72" fill="#89bb74"/>
+  <ellipse cx="400" cy="416" rx="120" ry="18" fill="#5a8f4a"/>
+</svg>

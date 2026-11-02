@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of the National Museum</title>
+  <desc id="desc">A stylized museum courtyard scene with red Khmer-style buildings and a garden path.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9ed7ff"/>
+      <stop offset="100%" stop-color="#edf8ff"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9b241d"/>
+      <stop offset="100%" stop-color="#5c0d0e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <rect y="354" width="800" height="166" fill="#8bc16e"/>
+  <path d="M286 520c28-78 72-132 114-166 50 30 94 90 118 166z" fill="#d1bd9e"/>
+  <rect x="58" y="242" width="226" height="136" fill="#d7aa7f"/>
+  <polygon points="36,252 172,168 308,252" fill="url(#roof)"/>
+  <polygon points="74,224 172,152 270,224" fill="#bf3329"/>
+  <rect x="118" y="286" width="108" height="92" fill="#784f2d"/>
+  <rect x="134" y="302" width="24" height="76" fill="#2d261f"/>
+  <rect x="186" y="302" width="24" height="76" fill="#2d261f"/>
+  <rect x="324" y="220" width="158" height="158" fill="#c8946e"/>
+  <polygon points="296,234 404,150 512,234" fill="url(#roof)"/>
+  <polygon points="328,210 404,144 480,210" fill="#be3128"/>
+  <rect x="380" y="278" width="46" height="100" fill="#654529"/>
+  <rect x="524" y="244" width="212" height="134" fill="#d7aa7f"/>
+  <polygon points="500,252 630,164 760,252" fill="url(#roof)"/>
+  <polygon points="542,226 630,158 718,226" fill="#bf342a"/>
+  <rect x="590" y="290" width="84" height="88" fill="#7f5731"/>
+  <circle cx="128" cy="430" r="38" fill="#4a8d47"/>
+  <circle cx="676" cy="430" r="38" fill="#4a8d47"/>
+  <circle cx="524" cy="430" r="24" fill="#5c9b58"/>
+  <circle cx="282" cy="430" r="24" fill="#5c9b58"/>
+</svg>

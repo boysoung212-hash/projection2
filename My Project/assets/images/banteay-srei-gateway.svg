@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Banteay Srei Gateway</title>
+  <desc id="desc">A stylized gateway view of Banteay Srei in warm sandstone colors.</desc>
+  <rect width="800" height="520" fill="#fce9d4"/>
+  <circle cx="644" cy="102" r="42" fill="#fff1b8"/>
+  <rect y="326" width="800" height="194" fill="#8ab36d"/>
+  <rect x="186" y="214" width="428" height="138" fill="#d98d77"/>
+  <rect x="246" y="188" width="308" height="164" fill="#e6a089"/>
+  <polygon points="232,214 314,150 396,214" fill="#bc634f"/>
+  <polygon points="354,188 400,138 446,188" fill="#c96f58"/>
+  <polygon points="404,214 486,150 568,214" fill="#bc634f"/>
+  <rect x="378" y="236" width="44" height="116" fill="#823c31"/>
+  <rect x="286" y="250" width="22" height="102" fill="#964437"/>
+  <rect x="492" y="250" width="22" height="102" fill="#964437"/>
+  <rect x="224" y="380" width="352" height="18" fill="#c3a07a"/>
+</svg>

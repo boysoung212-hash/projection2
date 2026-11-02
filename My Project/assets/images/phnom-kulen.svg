@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Phnom Kulen National Park</title>
+  <desc id="desc">A stylized forest waterfall scene with river rocks, dense trees, and a cool mountain atmosphere.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7fc8ff"/>
+      <stop offset="100%" stop-color="#d8f1ff"/>
+    </linearGradient>
+    <linearGradient id="fall" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0fbff"/>
+      <stop offset="100%" stop-color="#79cce8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <rect y="226" width="800" height="294" fill="#3d7b58"/>
+  <g fill="#24563c">
+    <circle cx="84" cy="196" r="78"/>
+    <circle cx="176" cy="182" r="96"/>
+    <circle cx="318" cy="166" r="110"/>
+    <circle cx="490" cy="170" r="104"/>
+    <circle cx="644" cy="176" r="96"/>
+    <circle cx="760" cy="196" r="72"/>
+  </g>
+  <g fill="#397a4d">
+    <circle cx="112" cy="208" r="58"/>
+    <circle cx="264" cy="196" r="78"/>
+    <circle cx="414" cy="194" r="72"/>
+    <circle cx="566" cy="198" r="76"/>
+    <circle cx="702" cy="210" r="60"/>
+  </g>
+  <path d="M0 264c118-18 194-42 320-24 110 16 190 18 274-10 72-24 122-18 206 10v64H0z" fill="#68855a"/>
+  <path d="M320 144h164v102c0 76-34 126-82 180-48-54-82-104-82-180z" fill="url(#fall)"/>
+  <path d="M300 144h204l48 46H252z" fill="#5f695f"/>
+  <path d="M244 196h316l-34 42H278z" fill="#4a534d"/>
+  <rect y="334" width="800" height="186" fill="#4ea7c8"/>
+  <path d="M0 364c96 12 168 14 264 0 104-14 188-12 280 6 102 20 166 18 256 8v26H0z" fill="#7fd3e7" opacity=".45"/>
+  <g fill="#65776c">
+    <ellipse cx="174" cy="382" rx="74" ry="28"/>
+    <ellipse cx="322" cy="426" rx="92" ry="32"/>
+    <ellipse cx="598" cy="390" rx="84" ry="30"/>
+  </g>
+  <g fill="#8ba39b">
+    <ellipse cx="190" cy="374" rx="42" ry="16"/>
+    <ellipse cx="352" cy="418" rx="56" ry="18"/>
+    <ellipse cx="624" cy="382" rx="48" ry="16"/>
+  </g>
+</svg>

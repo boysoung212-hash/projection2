@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Phnom Kulen Falls</title>
+  <desc id="desc">A stylized waterfall and forest pool in Phnom Kulen National Park.</desc>
+  <rect width="800" height="520" fill="#d9f2ff"/>
+  <rect y="226" width="800" height="294" fill="#457d59"/>
+  <g fill="#2c5e40">
+    <circle cx="92" cy="182" r="78"/>
+    <circle cx="220" cy="160" r="102"/>
+    <circle cx="418" cy="146" r="118"/>
+    <circle cx="632" cy="166" r="100"/>
+  </g>
+  <path d="M292 136h216v98c0 74-44 126-108 180-64-54-108-106-108-180z" fill="#e7fbff"/>
+  <path d="M264 142h272l42 50H222z" fill="#637067"/>
+  <rect y="334" width="800" height="186" fill="#53abc8"/>
+  <path d="M0 370c108 12 214 16 344 2 126-14 252-14 456 10v24H0z" fill="#8fdbe7" opacity=".42"/>
+  <ellipse cx="212" cy="404" rx="92" ry="28" fill="#6f8377"/>
+  <ellipse cx="586" cy="392" rx="82" ry="24" fill="#6f8377"/>
+</svg>

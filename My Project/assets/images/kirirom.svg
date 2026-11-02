@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Kirirom National Park</title>
+  <desc id="desc">A stylized forest lake scene with a warm lodge, hills, and twilight sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8fd1ff"/>
+      <stop offset="50%" stop-color="#4c93d6"/>
+      <stop offset="100%" stop-color="#1d4b81"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7ad6df"/>
+      <stop offset="100%" stop-color="#235d8c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="620" cy="96" r="36" fill="#fff2b0"/>
+  <path d="M0 244c92-44 204-58 338-44 132 14 244 10 462-28v304H0z" fill="#234b62"/>
+  <rect y="286" width="800" height="234" fill="url(#water)"/>
+  <path d="M38 362h244l82 64H112z" fill="#704d2e"/>
+  <path d="M74 332h176l68 40H42z" fill="#8f6336"/>
+  <rect x="118" y="368" width="144" height="86" fill="#f2ddbd"/>
+  <rect x="334" y="320" width="34" height="160" fill="#4b351f"/>
+  <circle cx="350" cy="294" r="42" fill="#2d5d39"/>
+  <circle cx="320" cy="320" r="24" fill="#396f44"/>
+  <circle cx="384" cy="320" r="24" fill="#396f44"/>
+  <rect x="594" y="336" width="28" height="126" fill="#5a4326"/>
+  <polygon points="608,300 586,336 630,336" fill="#f4d997"/>
+  <circle cx="608" cy="338" r="12" fill="#ffdb8a"/>
+  <ellipse cx="222" cy="422" rx="156" ry="28" fill="#c7f3ff" opacity=".24"/>
+</svg>

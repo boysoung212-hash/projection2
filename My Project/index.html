@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guides Website</title>
+    <meta
+        name="description"
+        content="A static travel guide landing page for discovering popular destinations across Cambodia."
+    >
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="site.css?v=5">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="topbar" id="home">
+            <a class="brand" href="#home" aria-label="Travel Guides Website home">
+                <span class="brand__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" focusable="false">
+                        <path d="M12 3 4 6l8 3 8-3-8-3Zm-8 7 8 3 8-3M4 14l8 3 8-3M4 18l8 3 8-3" />
+                    </svg>
+                </span>
+                <span class="brand__text">Travel Guides website</span>
+            </a>
+
+            <div class="topbar__actions">
+                <a class="outline-button" href="#popular">
+                    <span aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img" focusable="false">
+                            <path d="M3 7h18v9H3zM7 16v3M17 16v3M7 7V4h10v3" />
+                        </svg>
+                    </span>
+                    plan Trip
+                </a>
+                <a class="outline-button outline-button--small" href="login.html">login</a>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero__inner">
+                <span class="hero__eyebrow">Discover Cambodia differently</span>
+                <h1>Travel Guides website</h1>
+                <p>Plan beautiful escapes, find hidden gems, and make every journey memorable.</p>
+
+                <form class="search-bar" id="searchForm">
+                    <label class="sr-only" for="searchInput">Search destinations</label>
+                    <input
+                        id="searchInput"
+                        type="search"
+                        name="search"
+                        placeholder="Search destinations in Cambodia"
+                    >
+                    <button type="submit">Search</button>
+                </form>
+
+                <nav class="hero__nav" aria-label="Primary">
+                    <a href="index.html">Home</a>
+                    <a href="#popular">Popular destinations</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <div class="hero__highlights" aria-label="Travel guide highlights">
+                    <span><strong>30+</strong> places to explore</span>
+                    <span><strong>4</strong> travel styles</span>
+                    <span><strong>1</strong> unforgettable country</span>
+                </div>
+            </div>
+        </section>
+
+        <main class="main-content">
+            <section class="intro" id="popular">
+                <div class="section-heading">
+                    <span class="section-heading__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img" focusable="false">
+                            <path d="M4 18h16M6 16V8m4 8V4m4 12v-6m4 6v-3" />
+                        </svg>
+                    </span>
+                    <div>
+                        <h2>Trending Destinations in Cambodia</h2>
+                        <p>
+                            Explore city landmarks, island escapes, and cultural highlights across the country.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="destinations">
+                <div class="destinations__grid">
+                    <article
+                        class="destination-card destination-card--split"
+                        data-destination="royal-palace"
+                        data-keywords="royal palace phnom penh history architecture city landmark"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://images.pexels.com/photos/19063338/pexels-photo-19063338.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200"
+                                alt="Royal Palace style architecture in Phnom Penh"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Phnom Penh</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>The Royal Palace of Cambodia</h3>
+                            <p>
+                                A must-visit attraction in Phnom Penh with Khmer architecture, gardens, and
+                                cultural history at the center of the capital.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--split"
+                        data-destination="angkor-wat"
+                        data-keywords="angkor wat siem reap temple unesco sunrise history"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://visitlocaltravel.com/blog/wp-content/uploads/2024/07/Equinox-Sunrise-Phenomenon.png"
+                                alt="Temple complex at sunrise representing Angkor Wat"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Angkor Wat</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Angkor Wat</h3>
+                            <p>
+                                Located in <a href="#popular">Siem Reap, Cambodia</a>, this temple complex is one
+                                of the country's most important historical landmarks and a core stop for visitors.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--stack"
+                        data-destination="koh-rong"
+                        data-keywords="koh rong island beach sea resort sihanoukville water"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://travelsense.asia/wp-content/uploads/2015/07/koh_rong_island.jpg"
+                                alt="Clear ocean water and overwater villas representing Koh Rong"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Koh Rong</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Koh Rong</h3>
+                            <p>
+                                Cambodia's second-largest island near Sihanoukville, known for bright water,
+                                beach stays, and a slower tropical pace.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--stack"
+                        data-destination="bokor-national-park"
+                        data-keywords="bokor national park kampot mountain nature cool weather"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/4c/ca/35.jpg"
+                                alt="Mountain landscape and heritage buildings representing Bokor National Park"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Kampot</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Bokor National Park</h3>
+                            <p>
+                                A highland retreat in Kampot province with cooler air, scenic roads, and broad
+                                views that break away from the coast and city heat.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--feature"
+                        data-destination="national-museum"
+                        data-keywords="national museum phnom penh art history culture"
+                    >
+                        <div class="destination-card__body">
+                            <h3>National Museum</h3>
+                            <p>
+                                A strong stop in Phnom Penh for Khmer sculpture, historical artifacts, and a
+                                calmer city visit between major landmarks.
+                            </p>
+                        </div>
+                        <div class="destination-card__media">
+                            <img
+                                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/71/83/bc/photo1jpg.jpg?w=900&h=500&s=1"
+                                alt="Traditional red Khmer style building courtyard"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Phnom Penh</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--feature"
+                        data-destination="kirirom-national-park"
+                        data-keywords="kirirom national park kampong speu forest cabin nature mountain"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://ctp.r24k.app/wp-content/uploads/2025/03/utgzW8VhsA55dvZZTygj.jpg"
+                                alt="Forest lodge and lake view representing Kirirom National Park"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Kampong Speu</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Kirirom National Park</h3>
+                            <p>
+                                A quieter mountain destination with forest scenery, lodge stays, and day-trip
+                                routes for travelers wanting a break from busier tourist centers.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--split"
+                        data-destination="kratie-dolphin-river"
+                        data-keywords="kratie mekong dolphin river sunset wildlife boat quiet town"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://cdn.getyourguide.com/img/tour/646160d0dab28.jpeg/68.jpg"
+                                alt="Mekong river sunset with dolphins representing Kratie"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Kratie</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Kratie Dolphin River</h3>
+                            <p>
+                                A calmer Mekong stop known for river views, boat rides, and chances to spot
+                                Irrawaddy dolphins outside the busier tourism loop.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--feature"
+                        data-destination="tonle-sap-lake"
+                        data-keywords="tonle sap lake floating village siem reap boat fishing water"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://floatingvillagetours.com/wp-content/uploads/2017/11/AdobeStock_131726038.jpeg"
+                                alt="Floating village scene representing Tonle Sap Lake"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Siem Reap</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Tonle Sap Lake</h3>
+                            <p>
+                                A strong add-on from Siem Reap for floating-village scenery, lake travel, and a
+                                different look at daily life on Cambodia's largest freshwater lake.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--stack"
+                        data-destination="phnom-penh-riverside"
+                        data-keywords="phnom penh city riverside capital skyline urban market culture"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://www.novotelphnompenhbkk1.com/wp-content/uploads/sites/53/2025/02/Things-to-do-in-Phnom-Penh.jpg"
+                                alt="Phnom Penh skyline and riverfront illustration"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Phnom Penh</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Phnom Penh Riverside</h3>
+                            <p>
+                                A city stop for riverfront walks, local markets, and capital landmarks when you
+                                want a broader Phnom Penh view beyond palace and museum visits.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--split"
+                        data-destination="battambang-bamboo-train"
+                        data-keywords="battambang bamboo train countryside rice field local travel"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=450,height=450,dpr=2/tour_img/ca0c6ab404febdf71ee60e6c63f47fd6168581239eddb32aeef7f616d8ef07ce.jpg"
+                                alt="Countryside bamboo train representing Battambang"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Battambang</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Battambang Bamboo Train</h3>
+                            <p>
+                                A popular countryside experience for travelers who want rural scenery, slower
+                                overland stops, and something more local than the usual city landmark route.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--stack"
+                        data-destination="kep-beach"
+                        data-keywords="kep beach coast seafood island breeze sea relaxing"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://www.countrysidediscovery.com/wp-content/uploads/2020/12/istockphoto-514263434-612x612.jpg"
+                                alt="Seaside beach and palms representing Kep"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Kep</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Kep Beach</h3>
+                            <p>
+                                A smaller coastal getaway with easy beach time, fresh seafood, and a gentler pace
+                                for short relaxing trips in the south.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--stack"
+                        data-destination="preah-vihear-temple"
+                        data-keywords="preah vihear temple mountain heritage cliff history ancient cambodia"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="https://www.siemreapshuttle.com/wp-content/uploads/2023/07/NEW-Join-in-Full-Day-Preah-Vihear-and-Koh-Ker-Temple-Tour.jpg"
+                                alt="Mountain temple illustration representing Preah Vihear Temple"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Preah Vihear</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Preah Vihear Temple</h3>
+                            <p>
+                                A dramatic hilltop temple known for long approaches, historic stone structures,
+                                and wide views for travelers focused on heritage and remote landmarks.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--feature"
+                        data-destination="banteay-srei"
+                        data-keywords="banteay srei siem reap pink temple carving heritage angkor"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="assets/images/banteay-srei.svg"
+                                alt="Pink sandstone temple illustration representing Banteay Srei"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Siem Reap</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Banteay Srei Temple</h3>
+                            <p>
+                                A pink sandstone temple near Siem Reap, known for detailed carvings and a more
+                                intimate heritage stop outside the biggest Angkor crowds.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--split"
+                        data-destination="phnom-kulen-national-park"
+                        data-keywords="phnom kulen national park waterfall forest river carving siem reap nature"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="assets/images/phnom-kulen.svg"
+                                alt="Forest waterfall illustration representing Phnom Kulen National Park"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Siem Reap</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Phnom Kulen National Park</h3>
+                            <p>
+                                A forested plateau with waterfalls, river carvings, and a cooler day-trip mood for
+                                travelers wanting nature alongside temple routes.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--stack"
+                        data-destination="koh-tonsay"
+                        data-keywords="koh tonsay rabbit island kep beach boat sea relaxing quiet"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="assets/images/koh-tonsay.svg"
+                                alt="Island beach and boat illustration representing Koh Tonsay"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Kep</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Koh Tonsay</h3>
+                            <p>
+                                Also called Rabbit Island, this short boat ride from Kep offers calm beaches, simple
+                                seaside stays, and a quieter coastal rhythm.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="destination-card destination-card--split"
+                        data-destination="sambor-prei-kuk"
+                        data-keywords="sambor prei kuk kampong thom brick temple forest ancient history cambodia"
+                    >
+                        <div class="destination-card__media">
+                            <img
+                                src="assets/images/sambor-prei-kuk.svg"
+                                alt="Brick temple and forest illustration representing Sambor Prei Kuk"
+                                loading="lazy"
+                            >
+                            <span class="location-tag">Kampong Thom</span>
+                        </div>
+                        <div class="destination-card__body">
+                            <h3>Sambor Prei Kuk</h3>
+                            <p>
+                                An early temple complex with brick towers, shaded forest paths, and a quieter heritage
+                                experience between Phnom Penh and Siem Reap.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="empty-state" id="emptyState" hidden>No destinations matched your search.</p>
+            </section>
+        </main>
+
+        <footer class="footer" id="contact">
+            <div class="contact-intro">
+                <span class="contact-badge">✦ Let’s plan your next escape</span>
+                <h2>Have a place in mind?</h2>
+                <p>Tell us what kind of Cambodian adventure you are looking for. We will help you find a route worth remembering.</p>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-details">
+                    <a class="contact-card" href="tel:0885125443"><strong>Call us</strong><span>088 512 5443</span></a>
+                    <a class="contact-card" href="mailto:travelguides@gmail.com"><strong>Email us</strong><span>travelguides@gmail.com</span></a>
+                    <div class="contact-card"><strong>Find us</strong><span>Phnom Penh, Cambodia</span></div>
+                </div>
+                <form class="contact-form" action="mailto:travelguides@gmail.com" method="post" enctype="text/plain">
+                    <label for="contactName">Your name</label>
+                    <input id="contactName" name="name" type="text" placeholder="How should we call you?" required>
+                    <label for="contactMessage">Your travel idea</label>
+                    <textarea id="contactMessage" name="message" rows="4" placeholder="I want to explore..." required></textarea>
+                    <button type="submit">Send a message <span aria-hidden="true">→</span></button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                <span>Travel Guides Cambodia</span>
+                <span>Made for curious travellers</span>
+            </div>
+        </footer>
+    </div>
+
+    <div class="destination-modal" id="destinationModal" aria-hidden="true" hidden>
+        <div class="destination-modal__backdrop" data-close-modal></div>
+
+        <section
+            class="destination-modal__dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="destinationModalTitle"
+        >
+            <button
+                class="destination-modal__close"
+                id="destinationModalClose"
+                type="button"
+                aria-label="Close destination details"
+                data-close-modal
+            >
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                    <path d="M6 6l12 12M18 6 6 18" />
+                </svg>
+            </button>
+
+            <div class="destination-modal__hero">
+                <div class="destination-modal__image">
+                    <img id="destinationModalImage" src="" alt="">
+                    <span class="destination-modal__media-label" id="destinationModalLocation"></span>
+                    <div class="destination-modal__dots" id="destinationModalDots" aria-label="Image gallery navigation"></div>
+                </div>
+            </div>
+
+            <div class="destination-modal__content">
+                <div class="destination-modal__intro">
+                    <div class="destination-modal__copy">
+                        <p class="destination-modal__eyebrow" id="destinationModalEyebrow"></p>
+                        <h2 id="destinationModalTitle"></h2>
+                        <p class="destination-modal__summary" id="destinationModalSummary"></p>
+                    </div>
+
+                    <div class="destination-modal__meta">
+                        <span class="destination-modal__rating" id="destinationModalRating"></span>
+                        <span class="destination-modal__reviews" id="destinationModalReviews"></span>
+                    </div>
+                </div>
+
+                <div class="destination-modal__chips" id="destinationModalTags"></div>
+
+                <div class="destination-modal__facts">
+                    <article class="destination-modal__fact">
+                        <h3>Suggested Visit</h3>
+                        <p id="destinationModalVisitTime"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Best Time</h3>
+                        <p id="destinationModalBestTime"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Area</h3>
+                        <p id="destinationModalArea"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Travel Style</h3>
+                        <p id="destinationModalTravelStyle"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Location</h3>
+                        <p id="destinationModalPlace"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Distance from Phnom Penh</h3>
+                        <p id="destinationModalDistance"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Local Language</h3>
+                        <p id="destinationModalLanguage"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Popular Food</h3>
+                        <p id="destinationModalFood"></p>
+                    </article>
+
+                    <article class="destination-modal__fact">
+                        <h3>Average Stay</h3>
+                        <p id="destinationModalStayPrice"></p>
+                    </article>
+                </div>
+
+                <div class="destination-modal__grid">
+                    <section class="destination-modal__panel">
+                        <h3>Highlights</h3>
+                        <ul id="destinationModalHighlights"></ul>
+                    </section>
+
+                    <section class="destination-modal__panel">
+                        <h3>Travel Tip</h3>
+                        <p id="destinationModalTip"></p>
+                    </section>
+                </div>
+
+                <div class="destination-modal__actions">
+                    <a
+                        class="destination-modal__map-link"
+                        id="destinationModalMapLink"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Open Map
+                    </a>
+                </div>
+
+                <section class="destination-modal__review">
+                    <div class="destination-modal__review-header">
+                        <h3>Traveler Note</h3>
+                        <span class="destination-modal__review-badge">Recommended Stop</span>
+                    </div>
+                    <p id="destinationModalNote"></p>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

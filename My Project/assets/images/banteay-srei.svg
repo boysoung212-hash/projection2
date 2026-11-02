@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Banteay Srei</title>
+  <desc id="desc">A stylized pink sandstone temple scene with carved towers, trees, and warm morning light.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a4ddff"/>
+      <stop offset="100%" stop-color="#ffe6b8"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d98f79"/>
+      <stop offset="100%" stop-color="#ba5e4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="656" cy="92" r="40" fill="#fff0ac"/>
+  <rect y="316" width="800" height="204" fill="#7cb169"/>
+  <rect y="290" width="800" height="34" fill="#95c57b"/>
+  <g fill="#3c6a33">
+    <rect x="102" y="192" width="18" height="128"/>
+    <rect x="662" y="184" width="18" height="136"/>
+  </g>
+  <g fill="#5e9b4e">
+    <circle cx="110" cy="172" r="46"/>
+    <circle cx="82" cy="202" r="28"/>
+    <circle cx="138" cy="198" r="26"/>
+    <circle cx="670" cy="164" r="50"/>
+    <circle cx="640" cy="196" r="30"/>
+    <circle cx="700" cy="198" r="28"/>
+  </g>
+  <g>
+    <rect x="202" y="234" width="394" height="118" fill="url(#stone)"/>
+    <rect x="236" y="206" width="326" height="148" fill="#e49a84"/>
+    <rect x="332" y="170" width="134" height="186" fill="url(#stone)"/>
+    <rect x="266" y="184" width="76" height="170" fill="#cf7b63"/>
+    <rect x="456" y="184" width="76" height="170" fill="#cf7b63"/>
+    <polygon points="244,208 304,154 364,208" fill="#bf654f"/>
+    <polygon points="318,172 398,110 478,172" fill="#c86c55"/>
+    <polygon points="434,208 494,154 554,208" fill="#bf654f"/>
+    <rect x="382" y="232" width="36" height="124" fill="#884235"/>
+    <rect x="286" y="248" width="22" height="106" fill="#8a4335"/>
+    <rect x="490" y="248" width="22" height="106" fill="#8a4335"/>
+    <rect x="228" y="276" width="338" height="16" fill="#a95543"/>
+    <rect x="214" y="302" width="366" height="14" fill="#a14d3d"/>
+  </g>
+  <g fill="#f7ceb5" opacity=".78">
+    <rect x="354" y="196" width="16" height="18"/>
+    <rect x="388" y="196" width="16" height="18"/>
+    <rect x="422" y="196" width="16" height="18"/>
+    <rect x="282" y="214" width="12" height="14"/>
+    <rect x="504" y="214" width="12" height="14"/>
+  </g>
+  <rect x="0" y="400" width="800" height="120" fill="#6ca35d"/>
+</svg>

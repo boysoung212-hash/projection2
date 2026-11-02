@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sambor Prei Kuk Forest</title>
+  <desc id="desc">A stylized forest temple path scene in Sambor Prei Kuk.</desc>
+  <rect width="800" height="520" fill="#dff2ff"/>
+  <rect y="286" width="800" height="234" fill="#82ad6b"/>
+  <g fill="#315e39">
+    <rect x="96" y="92" width="16" height="214"/>
+    <rect x="186" y="70" width="14" height="236"/>
+    <rect x="606" y="78" width="14" height="228"/>
+    <rect x="700" y="96" width="16" height="210"/>
+  </g>
+  <g fill="#4e8b51">
+    <circle cx="104" cy="80" r="52"/>
+    <circle cx="176" cy="104" r="56"/>
+    <circle cx="614" cy="90" r="58"/>
+    <circle cx="706" cy="102" r="54"/>
+  </g>
+  <rect x="300" y="182" width="200" height="158" fill="#b66b4c"/>
+  <polygon points="282,198 400,112 518,198" fill="#954931"/>
+  <rect x="378" y="224" width="44" height="116" fill="#6d2f22"/>
+  <path d="M266 360c62 20 92 54 134 160h-134z" fill="#6c8a5c"/>
+  <path d="M534 360c-62 20-92 54-134 160h134z" fill="#6c8a5c"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Preah Vihear Temple</title>
+  <desc id="desc">A stylized mountain-top temple scene representing Preah Vihear with long stairways, stone towers, and open sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7fd5ff"/>
+      <stop offset="100%" stop-color="#f3fbff"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7b8a65"/>
+      <stop offset="100%" stop-color="#4c5f3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity=".8">
+    <ellipse cx="152" cy="86" rx="86" ry="24"/>
+    <ellipse cx="560" cy="74" rx="112" ry="28"/>
+  </g>
+  <path d="M0 296c112-70 206-112 326-134 116-20 290-12 474 46v312H0z" fill="url(#hill)"/>
+  <path d="M0 322c144-66 240-92 362-104 126-12 260 6 438 64v238H0z" fill="#86ad63"/>
+  <path d="M188 350h420l-56 40H244z" fill="#a8a18b"/>
+  <path d="M252 316h292l-38 34H290z" fill="#d6cfbf"/>
+  <g fill="#a1947e">
+    <rect x="288" y="270" width="58" height="46"/>
+    <rect x="372" y="246" width="58" height="70"/>
+    <rect x="456" y="266" width="52" height="50"/>
+  </g>
+  <g fill="#786c59">
+    <path d="M280 270h74l-20-18h-34z"/>
+    <path d="M364 246h74l-22-20h-28z"/>
+    <path d="M448 266h68l-18-18h-32z"/>
+  </g>
+  <g fill="#5f5448">
+    <rect x="306" y="284" width="14" height="32"/>
+    <rect x="392" y="262" width="18" height="54"/>
+    <rect x="474" y="282" width="14" height="34"/>
+  </g>
+  <path d="M338 316h108l-16 18h-76z" fill="#c6b79d"/>
+  <path d="M300 392h188l-28 128h-132z" fill="#d8ccb2"/>
+  <g fill="#c3b494">
+    <rect x="350" y="392" width="12" height="128"/>
+    <rect x="376" y="392" width="12" height="128"/>
+    <rect x="402" y="392" width="12" height="128"/>
+    <rect x="428" y="392" width="12" height="128"/>
+  </g>
+  <g fill="#4a5c39">
+    <path d="M108 332c38 8 72 26 102 58H72c6-20 16-38 36-58z"/>
+    <path d="M620 306c48 10 86 34 118 74H590c10-26 18-46 30-74z"/>
+  </g>
+</svg>

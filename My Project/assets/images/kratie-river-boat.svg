@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Kratie River Boat</title>
+  <desc id="desc">A stylized Mekong river boat scene at sunset in Kratie.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffb28b"/>
+      <stop offset="100%" stop-color="#ffe9c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="618" cy="130" r="48" fill="#fff0a5"/>
+  <rect y="282" width="800" height="238" fill="#5ea7c7"/>
+  <path d="M0 320c120 20 238 20 366 2 118-16 240-16 434 12v26H0z" fill="#96d7e6" opacity=".44"/>
+  <path d="M0 248c108 18 210 20 338 8 120-12 246-10 462 8v40H0z" fill="#7eb283"/>
+  <path d="M258 360h220l64 36H322z" fill="#7b4f2a"/>
+  <path d="M288 330h154l48 26H240z" fill="#a86e3c"/>
+  <rect x="360" y="286" width="10" height="70" fill="#654320"/>
+  <polygon points="370,288 446,330 370,330" fill="#f5f0df"/>
+  <ellipse cx="408" cy="430" rx="182" ry="18" fill="#3c89ad" opacity=".34"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Sambor Prei Kuk</title>
+  <desc id="desc">A stylized brick temple complex in a forest setting with shaded paths and ancient towers.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b8e3ff"/>
+      <stop offset="100%" stop-color="#eef7ff"/>
+    </linearGradient>
+    <linearGradient id="brick" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b86b4c"/>
+      <stop offset="100%" stop-color="#8e462d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <rect y="278" width="800" height="242" fill="#7fad6a"/>
+  <g fill="#2e5a35">
+    <rect x="92" y="118" width="16" height="190"/>
+    <rect x="160" y="92" width="14" height="216"/>
+    <rect x="616" y="96" width="14" height="212"/>
+    <rect x="688" y="122" width="16" height="186"/>
+  </g>
+  <g fill="#4f8b4c">
+    <circle cx="102" cy="104" r="52"/>
+    <circle cx="146" cy="138" r="42"/>
+    <circle cx="174" cy="84" r="58"/>
+    <circle cx="628" cy="86" r="58"/>
+    <circle cx="664" cy="122" r="44"/>
+    <circle cx="698" cy="108" r="52"/>
+  </g>
+  <g>
+    <rect x="248" y="184" width="114" height="178" fill="url(#brick)"/>
+    <polygon points="234,198 306,126 378,198" fill="#a34e35"/>
+    <rect x="294" y="230" width="24" height="132" fill="#6c2f21"/>
+    <rect x="434" y="156" width="136" height="206" fill="#c17556"/>
+    <polygon points="418,174 502,100 586,174" fill="#b55f42"/>
+    <rect x="490" y="214" width="28" height="148" fill="#723223"/>
+    <rect x="396" y="300" width="214" height="18" fill="#935038"/>
+  </g>
+  <g fill="#e1b392" opacity=".78">
+    <rect x="272" y="212" width="14" height="16"/>
+    <rect x="326" y="212" width="14" height="16"/>
+    <rect x="458" y="190" width="16" height="18"/>
+    <rect x="492" y="190" width="16" height="18"/>
+    <rect x="526" y="190" width="16" height="18"/>
+  </g>
+  <path d="M0 388c142 16 250 18 390 6 142-12 258-10 410 12v114H0z" fill="#6a9c57"/>
+</svg>

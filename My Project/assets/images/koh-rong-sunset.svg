@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Koh Rong Sunset</title>
+  <desc id="desc">A stylized tropical sunset over Koh Rong with palms and a wooden jetty.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffad7a"/>
+      <stop offset="100%" stop-color="#ffe6b4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6fd7e8"/>
+      <stop offset="100%" stop-color="#1b7eb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="616" cy="132" r="52" fill="#ffef9f"/>
+  <path d="M0 246c122 20 234 20 362 4 126-16 256-14 438 10v48H0z" fill="#7dbf8e"/>
+  <rect y="294" width="800" height="226" fill="url(#sea)"/>
+  <path d="M0 330c134 16 246 18 376 2 132-16 256-16 424 12v24H0z" fill="#8fe0ea" opacity=".45"/>
+  <path d="M124 304h30v160h-30z" fill="#6d4d2c"/>
+  <path d="M140 286c-42 14-68 38-78 72 28-12 50-16 82-12-12-16-12-32-4-60z" fill="#3c8d50"/>
+  <path d="M140 286c32 16 58 42 72 74-38-16-64-18-90-14 12-16 16-32 18-60z" fill="#57ab61"/>
+  <rect x="380" y="320" width="20" height="128" fill="#8d6135"/>
+  <rect x="422" y="320" width="20" height="128" fill="#8d6135"/>
+  <rect x="396" y="320" width="30" height="14" fill="#8d6135"/>
+  <rect x="348" y="350" width="140" height="16" fill="#9d6b38"/>
+  <rect x="316" y="382" width="204" height="18" fill="#9d6b38"/>
+</svg>

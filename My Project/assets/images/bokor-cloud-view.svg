@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Bokor Cloud View</title>
+  <desc id="desc">A stylized mountain lookout at Bokor with clouds and a heritage building.</desc>
+  <rect width="800" height="520" fill="#dff1ff"/>
+  <g fill="#ffffff" opacity=".92">
+    <ellipse cx="160" cy="118" rx="110" ry="34"/>
+    <ellipse cx="334" cy="86" rx="124" ry="30"/>
+    <ellipse cx="594" cy="118" rx="132" ry="34"/>
+  </g>
+  <path d="M0 260c96-54 178-76 270-70 88 6 152 28 226 20 98-10 160 24 304 86v224H0z" fill="#5f8064"/>
+  <path d="M0 306c122-30 226-34 352-10 114 22 210 22 448 2v222H0z" fill="#78936f"/>
+  <rect x="470" y="214" width="180" height="104" fill="#ece6d4"/>
+  <polygon points="456,228 560,166 664,228" fill="#8c6b4f"/>
+  <rect x="542" y="244" width="34" height="74" fill="#b59d7f"/>
+  <rect x="110" y="350" width="580" height="22" fill="#c7c7c4"/>
+  <rect x="160" y="372" width="480" height="14" fill="#8b8c87"/>
+</svg>

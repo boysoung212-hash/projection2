@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Kratie Dolphin River</title>
+  <desc id="desc">A stylized Mekong river scene in Kratie with Irrawaddy dolphins, sunset light, and riverside silhouettes.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#20305f"/>
+      <stop offset="55%" stop-color="#f08f5d"/>
+      <stop offset="100%" stop-color="#f8d39c"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7cc6d2"/>
+      <stop offset="100%" stop-color="#2d566f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="628" cy="116" r="52" fill="#ffd794" opacity=".92"/>
+  <rect y="236" width="800" height="284" fill="url(#river)"/>
+  <path d="M0 266c100 12 196 8 330-18 134-24 248-24 470 6v40H0z" fill="#93d4db" opacity=".34"/>
+  <path d="M0 240c88 44 142 64 212 72 108 14 208-12 304-28 116-18 184-14 284 10v52H0z" fill="#35506a" opacity=".48"/>
+  <g fill="#1b2f2c">
+    <path d="M80 252c30-42 54-60 86-74-10 26-10 42-4 74z"/>
+    <path d="M160 254c22-30 44-44 72-54-8 18-8 34-2 54z"/>
+    <path d="M642 260c20-36 48-54 86-70-8 26-6 44 0 70z"/>
+  </g>
+  <g fill="#738ea0">
+    <path d="M248 342c26-28 58-34 84-12-6 8-14 14-26 20 16 2 30 12 36 26-34 8-64-4-94-34z"/>
+    <path d="M446 372c22-24 50-30 72-10-4 8-10 12-20 18 16 2 26 8 32 20-30 8-56-2-84-28z"/>
+  </g>
+  <path d="M214 400c86-30 166-42 262-42 108 0 200 16 324 48v114H0V420c70 0 132-4 214-20z" fill="#355971" opacity=".58"/>
+  <ellipse cx="360" cy="454" rx="176" ry="20" fill="#183c52" opacity=".26"/>
+</svg>

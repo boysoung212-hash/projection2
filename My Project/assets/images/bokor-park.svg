@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Bokor National Park</title>
+  <desc id="desc">A stylized mountain park landscape with old buildings, clouds, and rolling highland terrain.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9fd8ff"/>
+      <stop offset="100%" stop-color="#ebf6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <ellipse cx="160" cy="92" rx="120" ry="34" fill="#ffffff" opacity=".95"/>
+  <ellipse cx="566" cy="72" rx="142" ry="38" fill="#ffffff" opacity=".9"/>
+  <path d="M0 296c92-92 176-130 268-146 100 24 160 66 214 146H0z" fill="#8b9984"/>
+  <path d="M210 296c88-78 188-118 314-136 94 30 188 82 276 136H210z" fill="#6f8070"/>
+  <path d="M0 330c114-38 248-42 378-18 150 26 280 24 422-8v216H0z" fill="#8ab86d"/>
+  <rect x="128" y="278" width="152" height="88" fill="#b8aa93"/>
+  <polygon points="112,288 204,230 296,288" fill="#5e5a56"/>
+  <rect x="156" y="306" width="24" height="60" fill="#5d4632"/>
+  <rect x="222" y="306" width="24" height="60" fill="#5d4632"/>
+  <rect x="426" y="258" width="188" height="112" fill="#c2b39c"/>
+  <polygon points="406,272 518,198 630,272" fill="#7f4d32"/>
+  <polygon points="438,246 518,188 598,246" fill="#9d6a4b"/>
+  <rect x="486" y="304" width="54" height="66" fill="#694a2f"/>
+  <rect x="354" y="346" width="50" height="82" fill="#324528"/>
+  <circle cx="380" cy="322" r="38" fill="#4e7b43"/>
+  <rect x="652" y="352" width="42" height="76" fill="#324528"/>
+  <circle cx="674" cy="330" r="32" fill="#4e7b43"/>
+</svg>

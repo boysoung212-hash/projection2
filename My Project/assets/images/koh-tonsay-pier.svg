@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Koh Tonsay Pier</title>
+  <desc id="desc">A stylized island pier and beach scene on Koh Tonsay.</desc>
+  <rect width="800" height="520" fill="#dff6ff"/>
+  <circle cx="650" cy="108" r="46" fill="#fff1a7"/>
+  <path d="M0 246c120 18 236 18 368 2 126-16 252-14 432 10v44H0z" fill="#7ac192"/>
+  <rect y="290" width="800" height="230" fill="#67b8d6"/>
+  <path d="M0 328c126 16 240 18 374 2 130-16 256-14 426 10v22H0z" fill="#99dce7" opacity=".44"/>
+  <path d="M84 300h278l56 34H140z" fill="#efcf96"/>
+  <rect x="386" y="300" width="20" height="164" fill="#8c6137"/>
+  <rect x="434" y="300" width="20" height="164" fill="#8c6137"/>
+  <rect x="338" y="334" width="164" height="16" fill="#9f6d39"/>
+  <rect x="318" y="366" width="204" height="18" fill="#9f6d39"/>
+  <rect x="296" y="398" width="248" height="18" fill="#9f6d39"/>
+</svg>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Travel Guides Website</title>
+    <meta
+        name="description"
+        content="Static register page for the Travel Guides Website."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="register.css">
+</head>
+<body class="register-page">
+    <main class="login-layout">
+            <a class="back-link" href="index.html">Back to website</a>
+
+            <div class="login-copy">
+                <h1 id="registerTitle">Sign up</h1>
+            </div>
+
+            <form class="login-form" action="#" method="post">
+                <label class="sr-only" for="fullName">Full name</label>
+                <input
+                    id="fullName"
+                    name="fullName"
+                    type="text"
+                    placeholder="Full name"
+                    autocomplete="name"
+                    required
+                >
+
+                <label class="sr-only" for="email">Email</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Email"
+                    autocomplete="email"
+                    required
+                >
+
+                <label class="sr-only" for="password">Password</label>
+                <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    placeholder="Password"
+                    autocomplete="new-password"
+                    required
+                >
+
+                <label class="sr-only" for="confirmPassword">Confirm password</label>
+                <input
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    type="password"
+                    placeholder="Confirm password"
+                    autocomplete="new-password"
+                    required
+                >
+
+                <div class="form-meta">
+                    <label class="remember-toggle" for="agreeTerms">
+                        <input id="agreeTerms" name="agreeTerms" type="checkbox" required>
+                        <span class="remember-toggle__box" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" role="img" focusable="false">
+                                <path d="M5 13.2 9.3 17.5 19 7.8" />
+                            </svg>
+                        </span>
+                        <span>I agree to the terms</span>
+                    </label>
+                </div>
+
+                <button class="primary-button" type="submit">Create account</button>
+            </form>
+
+            <p class="signup-copy">
+                Already have an account?
+                <a href="login.html">Log in</a>
+            </p>
+
+            <div class="divider" aria-hidden="true">
+                <span>or</span>
+            </div>
+
+            <div class="social-stack">
+                <button class="social-button social-button--facebook" type="button">
+                    Sign up with Facebook
+                </button>
+                <button class="social-button social-button--google" type="button">
+                    Sign up with Google
+                </button>
+                <button class="social-button social-button--apple" type="button">
+                    Sign up with Apple
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

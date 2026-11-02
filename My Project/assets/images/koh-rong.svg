@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Koh Rong</title>
+  <desc id="desc">A stylized island resort scene with turquoise water, wooden villas, and a tropical horizon.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8be5ff"/>
+      <stop offset="100%" stop-color="#d7f6ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8ff3ef"/>
+      <stop offset="100%" stop-color="#2fb7d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="664" cy="92" r="40" fill="#fff1a0"/>
+  <rect y="226" width="800" height="294" fill="url(#sea)"/>
+  <rect y="306" width="800" height="214" fill="#56d6d9" opacity=".4"/>
+  <path d="M0 246c112 28 182 30 302 10 116-20 164-18 284 4 110 22 160 14 214 2v52H0z" fill="#8fd3c3"/>
+  <path d="M54 322h194l58 42H112z" fill="#8a5b2d"/>
+  <path d="M86 288h130l52 34H46z" fill="#b68a55"/>
+  <rect x="118" y="320" width="126" height="84" fill="#f5f1e4"/>
+  <rect x="290" y="258" width="180" height="90" fill="#f4f0e0"/>
+  <path d="M260 286h236l-56-50H312z" fill="#c0965c"/>
+  <rect x="328" y="348" width="104" height="72" fill="#efe8d1"/>
+  <rect x="492" y="280" width="164" height="82" fill="#f3eedc"/>
+  <path d="M464 308h220l-48-46H512z" fill="#bf8f52"/>
+  <g fill="#8a5b2d">
+    <rect x="142" y="404" width="16" height="86"/>
+    <rect x="204" y="404" width="16" height="86"/>
+    <rect x="362" y="420" width="16" height="70"/>
+    <rect x="398" y="420" width="16" height="70"/>
+    <rect x="548" y="362" width="16" height="128"/>
+    <rect x="608" y="362" width="16" height="128"/>
+  </g>
+  <rect x="246" y="394" width="272" height="18" fill="#9b6d39"/>
+  <rect x="118" y="428" width="128" height="18" fill="#9b6d39"/>
+  <rect x="522" y="394" width="128" height="18" fill="#9b6d39"/>
+  <ellipse cx="630" cy="472" rx="108" ry="14" fill="#2ba3bb" opacity=".35"/>
+</svg>

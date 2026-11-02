@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of Kep Beach</title>
+  <desc id="desc">A stylized beach scene in Kep with a curved shoreline, bright water, palms, and small seaside pavilions.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7fd6ff"/>
+      <stop offset="100%" stop-color="#eef9ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#4ce0df"/>
+      <stop offset="100%" stop-color="#138eb0"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#f8efcf"/>
+      <stop offset="100%" stop-color="#efd8a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="648" cy="94" r="46" fill="#fff4a8"/>
+  <rect y="208" width="800" height="312" fill="url(#sea)"/>
+  <path d="M800 230c-118 28-188 54-262 110-76 56-150 116-254 150-88 28-176 32-284 30V520h800z" fill="url(#sand)"/>
+  <path d="M800 250c-98 30-178 74-260 136-72 54-136 88-210 114-96 32-198 34-330 20v-30c118 4 208-8 294-34 70-22 134-56 214-116 94-70 188-116 292-144z" fill="#ffffff" opacity=".68"/>
+  <path d="M0 238c132 22 210 20 310-6 96-24 166-28 264-16 98 12 154 28 226 36v40H0z" fill="#68d8de" opacity=".48"/>
+  <g fill="#315f3b">
+    <rect x="150" y="218" width="10" height="122"/>
+    <rect x="184" y="208" width="10" height="118"/>
+    <rect x="612" y="260" width="10" height="98"/>
+  </g>
+  <g fill="#3e8b4f">
+    <path d="M155 214c-26 10-42 22-58 44 28-8 46-8 68 0-12-18-12-28-10-44z"/>
+    <path d="M155 218c18 12 34 28 48 52-26-10-44-12-62-10 10-14 16-26 14-42z"/>
+    <path d="M188 206c-26 12-42 26-54 48 26-10 44-10 62-4-8-14-10-24-8-44z"/>
+    <path d="M188 210c16 10 32 28 48 54-28-12-46-14-64-12 8-12 16-24 16-42z"/>
+    <path d="M617 254c-20 8-32 20-42 38 22-6 38-6 54-2-8-12-12-22-12-36z"/>
+    <path d="M617 256c14 10 28 24 40 46-22-10-38-12-54-10 8-10 14-20 14-36z"/>
+  </g>
+  <g>
+    <path d="M468 310h102l24 18H444z" fill="#94643a"/>
+    <rect x="480" y="328" width="78" height="54" fill="#f1ead7"/>
+    <path d="M472 308h94l-18-24h-58z" fill="#bf8d58"/>
+    <rect x="504" y="344" width="14" height="38" fill="#c29865"/>
+    <rect x="532" y="344" width="14" height="38" fill="#c29865"/>
+  </g>
+  <g>
+    <path d="M344 358h84l20 14H326z" fill="#90603b"/>
+    <rect x="356" y="372" width="60" height="44" fill="#f2ebd8"/>
+    <path d="M348 358h78l-16-20h-46z" fill="#c69560"/>
+  </g>
+  <ellipse cx="610" cy="458" rx="126" ry="20" fill="#0f7597" opacity=".24"/>
+</svg>

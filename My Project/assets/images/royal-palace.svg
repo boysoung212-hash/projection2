@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of the Royal Palace in Phnom Penh</title>
+  <desc id="desc">A stylized palace scene with golden roofs, palm trees, and a bright Phnom Penh sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8fd7ff"/>
+      <stop offset="100%" stop-color="#d9efff"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#91c26d"/>
+      <stop offset="100%" stop-color="#5f9d50"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6d069"/>
+      <stop offset="100%" stop-color="#d69a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="680" cy="92" r="42" fill="#fff5ae"/>
+  <rect y="350" width="800" height="170" fill="url(#ground)"/>
+  <rect y="320" width="800" height="36" fill="#79b25d"/>
+  <rect x="58" y="256" width="340" height="118" fill="#f7e5b2"/>
+  <rect x="88" y="240" width="280" height="132" fill="#ead7a4"/>
+  <rect x="120" y="220" width="220" height="152" fill="#f4e0aa"/>
+  <polygon points="108,238 228,168 348,238" fill="url(#roof)"/>
+  <polygon points="70,256 160,194 250,256" fill="url(#roof)"/>
+  <polygon points="206,256 294,186 382,256" fill="url(#roof)"/>
+  <polygon points="142,220 230,154 318,220" fill="#f9e08b"/>
+  <rect x="170" y="254" width="24" height="118" fill="#bc8b33"/>
+  <rect x="242" y="254" width="24" height="118" fill="#bc8b33"/>
+  <rect x="314" y="254" width="24" height="118" fill="#bc8b33"/>
+  <rect x="150" y="286" width="208" height="18" fill="#bf9041"/>
+  <rect x="448" y="280" width="220" height="86" rx="12" fill="#9bc0ea"/>
+  <ellipse cx="560" cy="378" rx="168" ry="36" fill="#68a8d4" opacity=".45"/>
+  <rect x="468" y="240" width="34" height="118" fill="#5e4627"/>
+  <circle cx="485" cy="218" r="46" fill="#3f7b41"/>
+  <circle cx="455" cy="246" r="28" fill="#4c8e4f"/>
+  <circle cx="513" cy="246" r="24" fill="#4b8a4a"/>
+  <path d="M486 188c-18-48-14-90 8-140 12 42 15 90-8 140Z" fill="#315f34"/>
+  <rect x="588" y="250" width="30" height="108" fill="#644728"/>
+  <circle cx="604" cy="226" r="42" fill="#4b8e4e"/>
+  <circle cx="574" cy="252" r="24" fill="#5c9b58"/>
+  <circle cx="632" cy="252" r="22" fill="#5c9b58"/>
+  <path d="M606 194c-16-42-10-74 10-128 12 40 14 80-10 128Z" fill="#315f34"/>
+  <rect x="0" y="406" width="800" height="114" fill="#7bb35c"/>
+</svg>

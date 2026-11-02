@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Angkor Wat Reflection</title>
+  <desc id="desc">A stylized sunrise view of Angkor Wat reflected in water.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffb77d"/>
+      <stop offset="100%" stop-color="#ffe8c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="640" cy="110" r="46" fill="#fff2aa"/>
+  <rect y="258" width="800" height="262" fill="#6db4c6"/>
+  <path d="M0 290c120 14 226 18 350 8 132-12 256-10 450 12v18H0z" fill="#9ddae4" opacity=".45"/>
+  <g fill="#4f3625">
+    <rect x="176" y="220" width="448" height="64"/>
+    <rect x="248" y="162" width="52" height="122"/>
+    <rect x="356" y="142" width="92" height="142"/>
+    <rect x="504" y="162" width="52" height="122"/>
+  </g>
+  <g fill="#705039">
+    <polygon points="220,182 274,126 328,182"/>
+    <polygon points="330,150 402,88 474,150"/>
+    <polygon points="476,182 530,126 584,182"/>
+  </g>
+  <g fill="#7cc0d2" opacity=".55">
+    <rect x="176" y="284" width="448" height="18"/>
+    <polygon points="220,302 274,358 328,302"/>
+    <polygon points="330,302 402,364 474,302"/>
+    <polygon points="476,302 530,358 584,302"/>
+  </g>
+</svg>

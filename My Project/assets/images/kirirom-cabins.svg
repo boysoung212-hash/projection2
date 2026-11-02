@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Kirirom Cabins</title>
+  <desc id="desc">A stylized pine forest cabin scene in Kirirom National Park.</desc>
+  <rect width="800" height="520" fill="#d9efff"/>
+  <rect y="292" width="800" height="228" fill="#6fa55e"/>
+  <g fill="#2f5b36">
+    <rect x="88" y="92" width="12" height="220"/>
+    <rect x="152" y="72" width="12" height="240"/>
+    <rect x="236" y="106" width="12" height="206"/>
+    <rect x="620" y="88" width="12" height="224"/>
+    <rect x="708" y="100" width="12" height="212"/>
+  </g>
+  <g fill="#4f8550">
+    <polygon points="62,136 94,66 126,136"/>
+    <polygon points="126,110 158,38 190,110"/>
+    <polygon points="210,150 242,82 274,150"/>
+    <polygon points="594,132 626,62 658,132"/>
+    <polygon points="682,144 714,76 746,144"/>
+  </g>
+  <rect x="246" y="246" width="148" height="90" fill="#9d7650"/>
+  <polygon points="226,260 320,206 414,260" fill="#6d8aa3"/>
+  <rect x="428" y="232" width="164" height="104" fill="#a07c55"/>
+  <polygon points="406,248 510,190 614,248" fill="#758ea7"/>
+  <rect x="148" y="372" width="518" height="16" fill="#dedfe1"/>
+</svg>
